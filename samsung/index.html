@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>샘숭디스플레이</title>
+
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+</head>
+<body>
+  <!-- header -->
+  <div data-includes="inc/header.html" id="include_header"></div>
+
+  <!-- contents -->
+  <div id="contents">
+    <div class="main_contents clear">
+      <!-- 왼쪽 색 영역 -->
+      <div class="main_color clear"></div>
+      <!-- 메인 이미지 -->
+      <div class="main_img clear">
+        <a href="#">
+          <img src="assets/img/kv-01.jpg" id="img" />
+        </a>
+      </div>
+      <!-- 메인 버튼 -->
+      <div class="main_button">
+        <button class="button_prev"><img src="./assets/img/kv_prev.png" /></button>
+        <button class="button_next"><img src="./assets/img/kv_next.png" /></button>
+        <p><span id="count_number">01</span> / 05</p>
+        <button class="button_play_pause"><img src="./assets/img/kv_pause.png" id="btn_active" /></button>
+      </div>
+      <!-- 메인 텍스트 영역 -->
+      <div class="main_text" id="main_text">
+        <h2 id="main_text_title">디지털 세상으로<br />연결해주는 '창(窓)'</h2>
+        <p id="mian_text_p">
+          디스플레이 기술은 무한한 확장성으로 새로운<br />
+          일상과 가치를 선사합니다.
+        </p>
+      </div>
+      <!-- 메인 오른쪽 링크 영역 -->
+      <div class="main_link_background"></div>
+      <div class="main_link_menu">
+        <ul>
+          <li>
+            <a href="#" class="main_link_text">NEWSLETTER 구독신청
+              <img src="./assets/img/arrow_news_letter_white.png" class="main_link_img" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="main_link_text">NEWSROOM 보러가기
+              <img src="./assets/img/arrow_news_letter_white.png" class="main_link_img" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 서브 컨텐츠 -->
+    <div class="sub_contents clear">
+      <ul>
+        <li id="sub_news" class="sub_left_text">
+          <a href="#" class="sub_contents_link">
+            <h3>News</h3>
+            <p>노트북 장시간 사용에 눈 건강이 걱정이라면? '삼성 OLED'가 해답</p>
+            <img src="./assets/img/newsletter_arrow_black.png" class="sub_contents_img" />
+          </a>
+        </li>
+        <li id="sub_culture" class="sub_left sub_left_text">
+          <a href="#" class="sub_contents_link">
+            <h3>SDC Culture</h3>
+            <p>기술과 사람을 더욱 가치있게 연결하는 최고의 디스플레이를 만듭니다.</p>
+            <img src="./assets/img/newsletter_arrow_black.png" class="sub_contents_img" />
+          </a>
+        </li>
+        <li id="sub_jop" class="sub_left sub_left_text">
+          <a href="#" class="sub_contents_link">
+            <h3>채용정보</h3>
+            <p>삼성디스플레이는 도전, 창의, 열정을 가진 전문 인재를 기다립니다.</p>
+            <img src="./assets/img/newsletter_arrow_black.png" class="sub_contents_img" />
+          </a>
+        </li>
+        <li id="sub_oled" class="sub_right sub_right_text">
+          <a href="#">
+            <h3>OLED Display</h3>
+            <p>Why 삼성 OLED</p>
+          </a>
+        </li>
+        <li id="sub_qd" class="sub_right sub_right_text">
+          <a href="#">
+            <h3>QD Display</h3>
+            <p>Take The Quanturm Leap</p>
+          </a>
+        </li>
+        <li id="sub_z_fold" class="sub_right sub_right_text">
+          <a href="#">
+            <h3>Galaxy Z Fold 3의 비밀을 파헤쳐보자</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 맨위로 올리는 버튼 -->
+  <div id="to_top">
+    <img src="./assets/img/btn-totop.png" />
+  </div>
+
+  <!-- footer -->
+  <div data-includes="inc/footer.html" id="include_footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./assets/js/include.js"></script>
+  <script src="notice.js"></script>
+  <script>
+      // Notice.init('본인이름', 'pdf파일경로');
+      Notice.init('박찬우', '22.04.13_박찬우.pdf');
+  </script>
+  <script>
+
+    // --- 스크롤 내리면 나타나는 버튼 구현 --- //
+    const toTop = document.querySelector("#to_top");
+
+    window.addEventListener("scroll", e => {
+      if(this.scrollY > 30) {
+        toTop.style.display = "block";
+      } else {
+        toTop.style.display = "none";
+      }
+    });
+
+    // 클릭시 맨 위로 올라가는 기능
+    toTop.addEventListener("click", e => {
+      window.scrollTo({top: 0, behavior: "smooth"});
+    });
+
+
+
+    // --- 컨텐츠 변경 구현 --- //
+    // 왼쪽 컬러
+    const color = document.querySelector(".main_color");
+    const colorList = ["#333238", "#155236", "#e4edf3", "#efe9c9", "#073255"];
+
+    // 메인 텍스트
+    const mainTextTitle = document.querySelector("#main_text_title");
+    const mainTextSubtitle = document.querySelector("#mian_text_p");
+    
+    const mainTextTilteList = ["디지털 세상으로<br />연결해주는 '창(窓)'", "OLED Microsite 오픈", "삼성디스플레이,<br />'노트북 OLED'로 달린다", "생활의변화, 미래를 펼치다<br />Foldable Display", "진정한 풀스크린 시대를 연,<br />UPC™(Under Panel Camera"];
+    const mainTextSubtitleList = ["디스플레이 기술은 무한한 확장성으로 새로운<br />일상과 가치를 선사합니다.", "삼성 OLED가 열어갈 새로운 세상을 만나보세요!", "2021년 노트북용 OLED 라인업 10종 이상으로 확대", "디스플레이 혁신 기술이 집약된 폴더블 OLED는<br />한층 더 확장된 화면과 모빌리티 편의성을 제공합니다.", "전면 카메라 부위에도 화면이 나오는 완벽한 풀스크린 실현"];
+
+    // 이미지
+    const img = document.querySelector("#img");
+    const imgList = ["assets/img/kv-01.jpg", "assets/img/main_OLED.jpg", "assets/img/kv-02.jpg", "assets/img/kv-03_1.jpg", "assets/img/kv-04_1.jpg"];
+
+    // 오른쪽 링크
+    const mainLinkText = document.querySelectorAll(".main_link_text");
+    const mainLinkImg = document.querySelectorAll(".main_link_img");
+    const arrowBlack = "./assets/img/newsletter_arrow_black.png";
+    const arrowWhite = "./assets/img/arrow_news_letter_white.png";
+    
+    const Color = ["#fff", "#fff", "#000", "#000", "#fff"];
+
+    const linkImg = [arrowWhite, arrowWhite, arrowBlack, arrowBlack, arrowWhite];
+
+    // 카운트
+    const countNumber = document.querySelector("#count_number");
+    const countList = ["01", "02", "03", "04", "05"];
+
+    // 5초마다 바뀌는 기능 구현
+    let i = 0;
+    function changeItem() {
+      // 왼쪽 색
+      color.style.backgroundColor = colorList[i];
+  
+      // 메인 텍스트
+      mainTextTitle.innerHTML = mainTextTilteList[i];
+      mainTextTitle.style.color = Color[i];
+      mainTextSubtitle.innerHTML = mainTextSubtitleList[i];
+      mainTextSubtitle.style.color = Color[i];
+  
+      // 메인 이미지
+      img.setAttribute("src", imgList[i]);
+  
+      // 오른쪽 링크 색
+      mainLinkText.forEach(v => {
+        v.style.color = Color[i];
+      });
+      mainLinkImg.forEach(v => {
+        v.setAttribute("src", linkImg[i]);
+      })
+  
+      // 카운트
+      countNumber.innerHTML = countList[i];
+      countNumber.style.color = Color[i];
+  
+      i = (i + 1) % imgList.length;
+    };
+
+    // 5초 마다 실행
+    let change = setInterval(changeItem, 5000);
+
+
+
+    // --- pause 버튼 구현 --- //
+    let toggle = true;
+
+    const button = document.querySelector("#btn_active");
+    button.addEventListener("click", e => {
+      if(toggle === true){
+        button.setAttribute("src", "./assets/img/kv_play.png");
+        clearInterval(change);
+        toggle = false;
+      } else {
+        button.setAttribute("src", "./assets/img/kv_pause.png");
+        setInterval(changeItem, 5000);
+        toggle = true;
+      }
+    });
+
+
+    // --- 서브컨텐츠 화살표 변경 --- //
+    const subContentsLink = document.querySelectorAll(".sub_contents_link");
+    
+    subContentsLink.forEach(v => {
+      v.addEventListener("mouseover", e => {
+        const target = e.currentTarget.querySelector(".sub_contents_img");
+        target.setAttribute("src", "assets/img/arrow_black.png");
+      });
+      v.addEventListener("mouseout", e => {
+        const target = e.currentTarget.querySelector(".sub_contents_img");
+        target.setAttribute("src",  "assets/img/newsletter_arrow_black.png");
+      });
+    });
+  
+
+  
+  
+
+  </script>
+</body>
+</html>
