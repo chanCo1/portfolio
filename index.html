@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>현대자동차 공식 웹사이트이고 싶다</title>
+
+  <link rel="shortcut icon" href="assets/img/favicon.ico" />
+  <link rel="stylesheet" href="assets/css/styleScss.min.css" />
+
+</head>
+<body>
+
+  <!-- header -->
+  <div data-includes="inc/header.html" id="include_header"></div>
+
+  <!-- contents -->
+  <div id="contents">
+    <!-- top contents -->
+    <div class="top_contents">
+
+      <!-- hashtag -->
+      <div class="hashtag">
+        <ul>
+          <li><a href="#"># 아이오닉 5</a></li>
+          <li><a href="#"># 인터뷰</a></li>
+          <li><a href="#"># 넥쏘</a></li>
+          <li><a href="#"># 브랜드비전</a></li>
+          <li><a href="#"># 현대자동차 × 방탄소년단</a></li>
+          <li><a href="#"># 아임인차지</a></li>
+          <li><a href="#"># for Tomorrow</a></li>
+          <li><a href="#"># 현대자동자 × 블룸버그</a></li>
+        </ul>
+      </div>
+      <!-- main contents -->
+      <div class="contents_box">
+        <div class="contents head_contents">
+          <div class="contents_wrap">
+            <p class="category" id="category"></p>
+            <h2 class="subject title" id="subject"></h2>
+            <img class="contents_img" id="contents_img" />
+          </div>
+          <div class="contents_wrap">
+            <div class="ioniq_dj_text">
+              <p class="category white" id="category"></p>
+              <h3 class="subject white" id="subject"></h3>
+            </div>
+            <img class="contents_img" id="contents_img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- middle contents -->
+    <div class="middle_contents">
+      <div class="global_area">
+        <img src="./assets/img/main-hyundai-in-your-country-pc.webp" />
+        <div class="global_text">
+          <h3>국가별 사이트를 방문해 보세요.</h3>
+          <p>국가별 사이트를 방문하면 더 자세한 정보를 확인할 수 있습니다.</p>
+          <button type="button">바로가기</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- row contents -->
+    <div class="row_contents" id="row_contents">
+      <div class="social_title">
+        <p>소셜미디어</p>
+        <h3>소셜미디어 둘러보기</h3>
+      </div>
+      <div class="social_contents"></div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div data-includes="inc/footer.html" id="include_footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="assets/js/include.js"></script>
+  <script src="assets/js/contentJson.js"></script>
+  <script src="assets/js/socialJson.js"></script>
+
+</body>
+</html>
+
