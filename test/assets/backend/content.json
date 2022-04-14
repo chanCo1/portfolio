@@ -1,0 +1,130 @@
+{
+	"content": [
+		{
+			"category": "지속가능한 생활",
+			"subject": "나만의 도시 정원을 가꾸는 법",
+			"url": "https://www.hyundai.com/worldwide/ko/lifestyle/how-to-create-your-own-urban-garden",
+			"img_pc": "assets/img/40-lifestyle-urban-gardening-pc-736.webp",
+			"img_m": "assets/img/40-lifestyle-urban-gardening-m-580x514.webp",
+			"width": 736,
+			"height": 390
+		},
+		{
+			"category": "지속가능한 모빌리티",
+			"subject": "Power your beat: 아이오닉 5의 파워를 이용한 DJ공연",
+			"url": "https://www.hyundai.com/worldwide/ko/ioniq/power-your-beat-dj-set",
+			"img_pc": "assets/img/11-ioniq-power-your-beat-pc-352x390.webp",
+			"img_m": "assets/img/11-ioniq-power-your-beat-m-580x280.webp",
+			"width": 352,
+			"height": 390
+		},
+		{
+			"category": "고성능",
+			"subject": "고성능 차를 운전하는 방법",
+			"url": "https://www.hyundai.com/worldwide/ko/brand/how-to-drive-a-high-performance-car",
+			"img_pc": "assets/img/05-n-drive-high-performance-pc-448.webp",
+			"img_m": "assets/img/05-n-drive-high-performance-m-580x320.webp",
+			"width": 448,
+			"height": 400
+		},
+		{
+			"category": "파트너쉽",
+			"subject": "현대자동차 × WhisperAudios ASMR – 투싼과 함께 ASMR 사운드스케이프를 제작하다",
+			"url": "https://www.hyundai.com/worldwide/ko/brand/asmr-tucson",
+			"img_pc": "assets/img/86-brand-tucson-asmr-pc-352x400.webp",
+			"img_m": "assets/img/86-brand-tucson-asmr-m-280.webp",
+			"width": 352,
+			"height": 400
+		},
+		{
+			"category": "아이오닉",
+			"subject": "밤하늘 별자리를 만나다: 아이오닉 5와 함께 맞이하는 새해",
+			"url": "https://www.hyundai.com/worldwide/ko/ioniq/chasing-stars-with-ioniq-5",
+			"img_pc": "assets/img/10-chasing-stars-pc-256.webp",
+			"img_m": "assets/img/10-chasing-stars-m-280.webp",
+			"width": 256,
+			"height": 400
+		},
+		{
+			"category": "아이오닉",
+			"subject": "아이오닉 포레스트 신시도 프로젝트: 다음 세대를 위한 나무 심기",
+			"url": "https://www.hyundai.com/worldwide/ko/ioniq/ioniq-forest-sinsido-project",
+			"img_pc": "assets/img/09-ioniq-forest-pc-256.webp",
+			"img_m": "assets/img/09-ioniq-forest-m-280.webp",
+			"width": 256,
+			"height": 400
+		},
+		{
+			"category": "브랜드",
+			"subject": "CES 2022: 현대자동차, 로보틱스와 메타버스가 결합된 메타모빌리티로 이동 경험의 영역을 확장하다",
+			"url": "https://www.hyundai.com/worldwide/ko/brand/ces-2022",
+			"img_pc": "assets/img/85-brand-ces-2022-pc-448.webp",
+			"img_m": "assets/img/85-brand-ces-2022-m-280.webp",
+			"width": 448,
+			"height": 400
+		},
+		{
+			"category": "아이오닉",
+			"subject": "데이비드 드 로스차일드 × 현대자동차 – 차세대 탐험가에게 주는 영감",
+			"url": "https://www.hyundai.com/worldwide/ko/ioniq/david-de-rothschild-hyundai-part-4",
+			"img_pc": "assets/img/08-ioniq-david-de-rothschild-part4-pc-352x400.webp",
+			"img_m": "assets/img/08-ioniq-david-de-rothschild-part4-m-580x320.webp",
+			"width": 352,
+			"height": 400
+		},
+		{
+			"category": "아이오닉",
+			"subject": "데이비드 드 로스차일드 × 현대자동차 – 모빌리티의 미래",
+			"url": "https://www.hyundai.com/worldwide/ko/ioniq/david-de-rothschild-hyundai-part-3",
+			"img_pc": "assets/img/07-ioniq-david-de-rothschild-part3-pc-352x400.webp",
+			"img_m": "assets/img/07-ioniq-david-de-rothschild-part3-m-580x320.webp",
+			"width": 352,
+			"height": 400
+		},
+		{
+			"category": "아이오닉",
+			"subject": "데이비드 드 로스차일드 × 현대자동차 – 자연에게 목소리를 주다",
+			"url": "https://www.hyundai.com/worldwide/ko/ioniq/david-de-rothschild-hyundai-part-2",
+			"img_pc": "assets/img/06-ioniq-david-de-rothschild-part2-pc-352x400.jpg",
+			"img_m": "assets/img/06-ioniq-david-de-rothschild-part2-m-280.jpg",
+			"width": 352,
+			"height": 400
+		},
+		{
+			"category": "아이오닉",
+			"subject": "데이비드 드 로스차일드 × 현대자동차 - 자연 환경 보호를 최우선으로 하는 협업",
+			"url": "https://www.hyundai.com/worldwide/ko/ioniq/david-de-rothschild-hyundai-part-1",
+			"img_pc": "assets/img/05-ioniq-david-de-rothschild-part1-pc-352x400.webp",
+			"img_m": "assets/img/05-ioniq-david-de-rothschild-part1-m-280.webp",
+			"width": 352,
+			"height": 400
+		},
+		{
+			"category": "브랜드",
+			"subject": "헤리티지 시리즈 그랜저: 모던하게 재탄생된 1986년 플래그십 세단",
+			"url": "https://www.hyundai.com/worldwide/ko/brand/heritage-series-grandeur",
+			"img_pc": "assets/img/84-brand-heritage-grandeur-pc-448.webp",
+			"img_m": "assets/img/84-brand-heritage-grandeur-m-580x320.webp",
+			"width": 448,
+			"height": 400
+		},
+		{
+			"category": "브랜드",
+			"subject": "브리타 라이니키 × 현대자동차 – 전기차 주행에 관한 다섯 가지 질문",
+			"url": "https://www.hyundai.com/worldwide/ko/brand/ev-literacy-britta-reineke-part-3",
+			"img_pc": "assets/img/83-brand-ev-literacy-part-three-pc-352x400.webp",
+			"img_m": "assets/img/83-brand-ev-literacy-part-three-m-280.webp",
+			"width": 352,
+			"height": 400
+		},
+		{
+			"category": "아이오닉",
+			"subject": "아이오닉 콘셉트카 '세븐' : &quot;나만의 시간(Me Time)&quot;과 &quot;가족과의 시간(Family Time)&quot;을 위한 혁신",
+			"url": "https://www.hyundai.com/worldwide/ko/ioniq/introducing-the-seven-concept",
+			"img_pc": "assets/img/04-ioniq-seven-pc-256.webp",
+			"img_m": "assets/img/04-ioniq-seven-m-280.webp",
+			"width": 256,
+			"height": 400
+		}
+	]
+}
