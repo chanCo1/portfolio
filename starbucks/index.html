@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>스타벅스 클론코딩 :: 박찬우</title>
+
+  <link rel="shortcut icon" href="assets/img/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  
+</head>
+<body>
+
+  <!-- header -->
+  <div data-includes="inc/header.html" id="include_header"></div>
+
+  <!-- contents -->
+  <div id="contents">
+    
+    <!-- 오른쪽에 고정돼있는 이미지 -->
+    <div class="side_item">
+      <a href="#"><img src="./assets/img/WIP8gI_20220412094134198.png" /></a>
+      <a href="#"><img src="./assets/img/5vBa7F_20220331095019819.png" /></a>
+    </div>
+
+    <!-- 메인 컨텐츠 -->
+    <div class="top_contents" id="top_contents">
+      <!-- 메인 이미지 -->
+      <div class="main_img">
+        <div class="slogun">
+          <img src="assets/img/2022_Summer1_main_slogun.png" alt="슬로건" />
+          <button type="button">자세히 보기</button>
+        </div>
+        <div class="punch">
+          <img src="assets/img/2022_Summer1_main_punchgraffiti3.png" alt="펀치 그래피티 블렌디드">
+        </div>
+        <div class="rollin">
+          <img src="assets/img/2022_Summer1_main_rollinmint.png" alt="롤린 민트 초코 콜드 브루">
+        </div>
+        <div class="pomelo">
+          <img src="assets/img/2022_Summer1_main_pomeloflow.png" alt="포멜로 플로우 그린 티">
+        </div>
+      </div>
+    </div>
+
+    <!-- 공지사항 -->
+    <div class="notice" id="notice">
+      <div class="notice_wrap clear">
+        <div class="notice_title">
+          <h3>공지사항</h3>
+        </div>
+        <div class="notice_subject" id="notice_subject">
+          <ul>
+            <li class="notice_list"><a href="#">시스템 개선 및 점검 안내</a></li>
+            <li class="notice_list"><a href="#">홈페이지 이용약관 / 스타벅스 카드 이용약관 개정 안내</a></li>
+            <li class="notice_list"><a href="#">사이렌 오더/딜리버리 음료 기본 걸정 변경 안내 (HOT → ICE)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="notice_plus">
+        <a href="#"><img src="assets/img/btn_notice_plus.png" /></a>
+      </div>
+
+      <!-- 프로모션 -->
+      <div class="promotion">
+        <div class="promotion_wrap clear">
+          <div class="promotion_title">
+            <h3>스타벅스 프로모션</h3>
+          </div>
+          <div class="promotion_btn">
+            <img id="promotion_btn" src="assets/img/btn_prom_down.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 프로모션 배너 -->
+    <div class="prom_banner" id="prom_banner">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="assets/img/fs8Fa0_20220411134210197.jpg" />
+              <button>자세히 보기</button>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="assets/img/Y7YBKr_20220404160419657.jpg" />
+              <button>자세히 보기</button>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="assets/img/wW63vb_20211231154557623.jpg" />
+              <button>자세히 보기</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- pagination 표시 -->
+        <div class="swiper-pagination-box">
+          <div class="pagination-pause">
+            <div class="pagination-stop">
+              <img src="assets/img/main_prom_stop.png" />
+            </div>
+            <div class="pagination-start">
+              <img src="assets/img/main_prom_play.png" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- prev, next 버튼 표시 -->
+        <div class="swiper-button-box">
+          <div class="swiper-button-prev">
+            <img src="assets/img/arrow_left_on.png" />
+          </div>
+          <div class="swiper-button-next">
+            <img src="assets/img/arrow_right_on.png" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 리워드 컨텐츠 -->
+    <div class="reward_content" id="reward_content">
+      <div class="reward_content_wrap celar">
+        <div class="reward_content_img">
+          <img src="./assets/img/rewards-logo.png" alt="리워드 로고">
+        </div>
+        <div class="reward_text_wrap">
+          <div class="reward_content_text1">
+            <h2>스타벅스만의 특별한 혜택, 스타벅스 리워드</h2>
+            <p>
+              스타벅스 회원이세요? 로그인을 통해 나만의 리워드를 확인해보세요.<br />
+              스타벅스 회원이 아니세요? 가입을 통해 리워드 혜택을 즐기세요.
+            </p>
+            <div class="reward_button reward_top_btn">
+              <button type="button" class="join_btn"><a href="#">회원가입</a></button>
+              <button type="button"><a href="#">로그인</a></button>
+            </div>
+          </div>
+          <div class="reward_content_text2">
+            <p>
+              회원 가입 후, 스타벅스 e-Gift Card를 "나에게 선물하기"로 구매하시고, 편리하게 등록하세요!<br />
+              카드를 등록하여 스타벅스 리워들 회원이 되신 후, 첫 구매를 하시면 무료 음료쿠폰을 드립니다!
+            </p>
+            <div class="reward_button">
+              <button type="button" class="e-gift_btn"><a href="#">e-Gift Card 선물하기</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 토라자 -->
+    <div class="toraja_content" id="toraja_content">
+      <img src="assets/img/2022_Summer1_bean_bg_left.png" alt="배경1" />
+      <img src="assets/img/2022_Summer1_bean_bg_right.png" alt="배경2" />
+      <div class="toraja_wrap">
+        <div class="toraja_img" id="toraja_img">
+          <img src="assets/img/2022_Summer1_bean_bean.png" alt="토라자 사진" />
+        </div>
+        <div class="toraja_text_box" id="toraja_text_box">
+          <div class="toraja_text">
+            <img src="assets/img/2022_Summer1_bean_text.png" alt="토라자 텍스트" />
+          </div>
+          <div class="toraja_btn">
+            <a href="#">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 인도네시아 -->
+    <div class="indonesia_content" id="indonesia_content">
+      <img src="assets/img/reserve_2022_indonesia_leaf1.png" />
+      <img src="assets/img/reserve_2022_indonesia_leaf2.png" />
+      <img class="indonesia_coffee" src="assets/img/reserve_2022_indonesia_visual3.png" />
+      <div class="indonesia_wrap">
+        <img class="indonesia_title" src="assets/img/reserve_2022_indonesia_title.png" />
+        <div class="indonesia_detail">
+          <a href="#">자세히 보기</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- pick your -->
+    <div class="favorite_content" id="favorite_content">
+      <div class="favorite_wrap">
+        <div class="favorite_text">
+          <img class="favorite_text1" src="assets/img/fav_prod_txt01.png" />
+          <img class="favorite_text2" src="assets/img/fav_prod_txt02.png" />
+          <div class="favorite_detail">
+            <a href="#">자세히 보기</a>
+          </div>
+        </div>
+        <div class="favorite_img">
+          <img src="assets/img/2022_Summer1_pick_img.png" />
+        </div>
+      </div>
+    </div>
+    
+    <!-- reserve -->
+    <div class="reserve_content" id="reserve_content">
+      <div class="reserve_wrap">
+        <div class="reserve_text">
+          <img src="assets/img/reserve_text_pc_220120.png" />
+          <div class="reserve_detail">
+            <a href="#">자세히 보기</a>
+          </div>
+        </div>
+        <div class="reserve_img">
+          <img src="assets/img/reserve_visual_pc_220119.png" />
+        </div>
+      </div>
+    </div>
+  
+    <!-- store -->
+    <div class="store_content" id="store_content">
+      <div class="store_wrap">
+        <div class="store_img">
+          <img src="assets/img/store_exp_img01.png" />
+          <img src="assets/img/store_exp_img02.png" />
+          <img src="assets/img/store_exp_img03.png" />
+          <img src="assets/img/store_exp_img04.png" />
+        </div>
+        <div class="store_text">
+          <img class="store_text1" src="assets/img/store_txt01.png" />
+          <img class="store_text2" src="assets/img/store_txt02.png" />
+          <div class="store_find">
+            <a href="#">매장 찾기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div data-includes="inc/footer.html" id="include_footer"></div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="assets/js/include.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+
