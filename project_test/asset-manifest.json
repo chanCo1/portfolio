@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/portfolio/project_test/static/js/main.f7892e9c.js",
+    "static/media/ryan.png": "/portfolio/project_test/static/media/ryan.dd1418672edce5ba64b0.png",
+    "static/media/moveloc.png": "/portfolio/project_test/static/media/moveloc.3f415cddb18c2a8cd50a.png",
+    "static/media/moveloc2.png": "/portfolio/project_test/static/media/moveloc2.71edf8a26a90e4550956.png",
+    "index.html": "/portfolio/project_test/index.html",
+    "main.f7892e9c.js.map": "/portfolio/project_test/static/js/main.f7892e9c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f7892e9c.js"
+  ]
+}
