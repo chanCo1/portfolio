@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/portfolio/project/static/js/main.ca948d32.js",
+    "static/media/ryan.png": "/portfolio/project/static/media/ryan.dd1418672edce5ba64b0.png",
+    "static/media/moveloc.png": "/portfolio/project/static/media/moveloc.3f415cddb18c2a8cd50a.png",
+    "static/media/moveloc2.png": "/portfolio/project/static/media/moveloc2.71edf8a26a90e4550956.png",
+    "index.html": "/portfolio/project/index.html",
+    "main.ca948d32.js.map": "/portfolio/project/static/js/main.ca948d32.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ca948d32.js"
+  ]
+}
