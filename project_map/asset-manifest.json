@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/portpolio/project_map/static/js/main.ab9839bb.js",
+    "static/media/ryan.png": "/portpolio/project_map/static/media/ryan.dd1418672edce5ba64b0.png",
+    "static/media/moveloc.png": "/portpolio/project_map/static/media/moveloc.3f415cddb18c2a8cd50a.png",
+    "static/media/moveloc2.png": "/portpolio/project_map/static/media/moveloc2.71edf8a26a90e4550956.png",
+    "index.html": "/portpolio/project_map/index.html",
+    "main.ab9839bb.js.map": "/portpolio/project_map/static/js/main.ab9839bb.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ab9839bb.js"
+  ]
+}
