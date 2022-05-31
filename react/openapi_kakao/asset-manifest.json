@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/react/openapi_kakao/static/js/main.c0899c4b.js",
+    "static/media/noImg.png": "/react/openapi_kakao/static/media/noImg.ec692fdf273c86a0ba19.png",
+    "index.html": "/react/openapi_kakao/index.html",
+    "main.c0899c4b.js.map": "/react/openapi_kakao/static/js/main.c0899c4b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c0899c4b.js"
+  ]
+}
